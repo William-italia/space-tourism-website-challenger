@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+
+:root {
+ --color-blue-dark: #0B0D17;
+ --color-blue-light: #D0D6f9;
+ --light: #FFFFFF;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    background: var(--color-blue-dark);
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.navbar .menu > i {
+    font-size: 1.8rem;
+}
